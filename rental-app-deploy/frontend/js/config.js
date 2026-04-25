@@ -6,11 +6,8 @@
   const hostname = window.location.hostname;
 
   if (hostname === 'localhost' || hostname === '127.0.0.1') {
-    // Local development
     window.BACKEND_URL = 'http://localhost:5000';
   } else {
-    // Production — replace this with your actual Render backend URL
-    // e.g. https://rental-app-backend.onrender.com
-    window.BACKEND_URL = 'https://renthubdeploy-2.onrender.com/';
+    window.BACKEND_URL = 'https://renthubdeploy-2.onrender.com';
   }
 })();
