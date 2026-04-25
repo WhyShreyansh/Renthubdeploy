@@ -11,6 +11,6 @@
   } else {
     // Production — replace this with your actual Render backend URL
     // e.g. https://rental-app-backend.onrender.com
-    window.BACKEND_URL = 'REPLACE_WITH_RENDER_BACKEND_URL';
+    window.BACKEND_URL = 'https://renthubdeploy-2.onrender.com/';
   }
 })();
